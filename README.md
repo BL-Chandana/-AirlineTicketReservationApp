@@ -109,36 +109,6 @@ The system is architected around **SOLID design principles**, incorporates **Gan
 
 ---
 
-## 🌿 Git Workflow & Branching Strategy
-
-The repository models an industry-standard **Feature-Branch Workflow**. Each module was built in isolation and merged into `main` sequentially without merge conflicts.
-
-### Branch Mapping & Commit Ledger
-All commits follow the strict attribution convention: `[Anbu] Added: <Module Name>`
-
-| Feature Branch | Target Package Path | Commit Message |
-| :--- | :--- | :--- |
-| `feature/01-user-management` | `src/domain/user`, `src/service/user` | `[Anbu] Added: UC1 User Management Module` |
-| `feature/02-flight-search-discovery` | `src/domain/flight`, `src/service/flight` | `[Anbu] Added: UC2 Flight Search & Discovery Module` |
-| `feature/03-seat-selection` | `src/domain/seat`, `src/service/seat` | `[Anbu] Added: UC3 Seat Selection Module` |
-| `feature/04-booking-management` | `src/domain/booking`, `src/service/booking` | `[Anbu] Added: UC4 Booking Management Module` |
-| `feature/05-payment-processing` | `src/domain/payment`, `src/service/payment` | `[Anbu] Added: UC5 Payment Processing Module` |
-| `feature/06-booking-modification` | `src/service/modification` | `[Anbu] Added: UC6 Booking Modification Module` |
-| `feature/07-booking-cancellation` | `src/service/cancellation` | `[Anbu] Added: UC7 Booking Cancellation Module` |
-| `feature/08-flight-management` | `src/domain/flightmanagement`, `src/service/flightmanagement` | `[Anbu] Added: UC8 Flight Management Module` |
-| `feature/09-airport-management` | `src/domain/airport`, `src/service/airport` | `[Anbu] Added: UC9 Airport Management Module` |
-| `feature/10-priority-booking` | `src/domain/queue`, `src/service/queue` | `[Anbu] Added: UC10 Priority Queue Module` |
-| `feature/11-singleton-pattern` | `src/manager` | `[Anbu] Added: UC11 Singleton Managers Module` |
-| `feature/12-notification-system` | `src/domain/notification`, `src/service/notification` | `[Anbu] Added: UC12 Notification Module` |
-| `feature/13-reporting-analytics` | `src/service/report` | `[Anbu] Added: UC13 Reporting & Analytics Module` |
-| `feature/14-check-in` | `src/domain/checkin`, `src/service/checkin` | `[Anbu] Added: UC14 Online Check-In Module` |
-| `feature/15-search-optimization` | `src/domain/optimization`, `src/service/optimization` | `[Anbu] Added: UC15 Search Optimization Module` |
-| `feature/16-business-rules` | `src/domain/rules`, `src/service/rules` | `[Anbu] Added: UC16 Business Rules & Fare Calculation Module` |
-| `feature/17-exception-handling` | `src/exception` | `[Anbu] Added: UC17 Exception Handling Module` |
-| `feature/18-integrations` | `src/integration` | `[Anbu] Added: UC18 Third-Party Integration & REST APIs Module` |
-
----
-
 ## 📂 Project Directory Structure
 
 ```text
